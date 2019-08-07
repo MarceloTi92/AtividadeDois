@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#6646CC">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="223dp"
+        android:onClick="Welcome"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/logoo"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="W E L C O M E  T O"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ZAD"
+        android:textStyle="bold"
+        android:textSize="45sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textAllCaps="false"
+        />
+
+
+
+
+</LinearLayout>
